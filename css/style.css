@@ -1,0 +1,71 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@200;500;600')
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url('components/cards.css');
+@import url('components/footer.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family:'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family:'Work Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  height: 100px;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+  opacity: .5;
+  font-size: 20px;
+  font-family:'Roboto', sans-serif;
+}
+
+.btn-primary {
+    color: white;
+    border: 1px solid white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-family:'Roboto', sans-serif;
+    font-weight: lighter;
+    opacity: 0.9;
+}
+
+.btn-primary:hover {
+    color: black;
+    border: 1px solid black;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-family:'Roboto', sans-serif;
+    font-weight: lighter;
+    opacity: 0.6;
+}

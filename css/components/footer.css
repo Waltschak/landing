@@ -1,0 +1,22 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+  font-family:'Roboto', sans-serif;
+  height: 50px;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #6B6C6C;
+}
+
+.footer p {
+  color: #6B6C6C;
+}
+
+.footer .fas {
+  color: #6B6C6C;
+}
